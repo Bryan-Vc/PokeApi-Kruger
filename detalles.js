@@ -17,7 +17,7 @@ const createPokemonCard = (pokemon) => {
           <span class='evoluPokemon'>Evolución : </span> <span class='evoluPokemon_'>${evolution}</span><br>
           <span class='altPokemon'>Altura : </span> <span class='altPokemon_'>${height}</span><br>
           <span class='weiPokemon'>Peso : </span> <span class='weiPokemon_'>${weight}</span><br><br>
-          <a href=/ class='btnDetalles'>Home</a>
+          <a href=index.html class='btnDetalles'>Home</a>
       `;
 
   divPokemon.innerHTML = innerhtmlPokemon;
