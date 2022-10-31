@@ -1,14 +1,13 @@
-# PokeAPI Challenge - Kruger :tw-1f432:
+# PokeAPI Challenge - Kruger 😁
 #### *Dicho reto se desarrolló con las siguientes tecnologías *
 #### *- HTML*
-#### *- CSS => para normalizar estilos en todos los navegadores se usó 'normalize.css'*y para los prefijos propietarios se usó la página 'autoprefixer.github.io'
+#### *- CSS => para normalizar estilos en todos los navegadores se usó 'normalize.css'*y para los prefijos propietarios se usó la página 'autoprefixer.github.io' *
 #### *- Java Script Vainilla y Node JS => consumo de API por Fetch*
-:tw-1f449: Link de la Aplicacion : 
-
+ Link de la Aplicacion : 
 [========]
-## 1. FRONTEND :tw-2600:
+## 1. FRONTEND 🤳
 ##### Se tomo como base el Wiraframe enviado al correo para el diseño de la misma. En el Css se usó display grid para mostrar los pokemons en 3 columnas y para el header se usó flexbox para que los elementos esten uno a lado de otro.
-## 2. BACKEND :tw-2734:
+## 2. BACKEND 🐱‍🏍
 ###### *LINK DE LA API :  https://my-json-server.typicode.com/Bryan-ITSQMET/API-poke-kruger*
 nota : previamente a la construcción de la api se necesita tener instalado node js.
 #####<BR>· Se utilizo un módulo llamado JSON SERVER *(https://github.com/typicode/json-server)*
@@ -21,4 +20,7 @@ nota : previamente a la construcción de la api se necesita tener instalado node
 ###  <BR> 2.2 Deploy de la API con MY JSON SERVER 
 nota : previamente debemos haber subido nuestro archivo `db.json` a GitHub
 ##### · Visitamos el siguiente enlace https://my-json-server.typicode.com/'nombreUsuarioDeGit'/'nombreDelRepositorio' y lo reemplazamos con nuestros datos. En mi caso quedaría así https://my-json-server.typicode.com/Bryan-ITSQMET/API-poke-kruger
+[========]
+## 3. FUNCIONALIDAD DE LA PÁGINA
+##### La página web muestra la informacion de solo 10 pokemons que hay que hay en la Base de Datos
 
