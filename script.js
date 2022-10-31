@@ -20,7 +20,7 @@ const getPokemon = async (id) => {
     .then((res) => res.json())
     .then((data) => createPokemonCard(data));
 };
-// CREAO LA CARD POKEMON HOME
+// CREAO LA CARD POKEMON HOME Y LO INSERTO EN EL DIV DEL INDEX.HTML CON LA CLASE POKE_CONTAINER
 const createPokemonCard = (pokemon) => {
   const { id, image, name, type } = pokemon;
   const divPokemon = document.createElement("div");
@@ -39,7 +39,7 @@ const createPokemonCard = (pokemon) => {
 };
 // INSERTO LOS POKEMONS
 fetchPokemons();
-
+//ARREGLO CREADO PARA REALIZAR LA BUSQUEDA DE POKEMONS
 const names = [
   "pikachu",
   "bulbasaur",
@@ -52,11 +52,11 @@ const names = [
   "ekans",
   "mewto",
 ];
-
+// EVENTO AL BOTON SEARCH
 search.addEventListener("click", (e) => {
   e.preventDefault();
-  let busqueda = txtsearch.value.toLowerCase().trim();
-
+  let busqueda = txtsearch.value.toLowerCase().trim(); //TODOS LOS DATOS INSERTADOS EN EL INPUT DE TIPO TEXTO SE LO TRNASFORMA A MINUSCULA Y SE ELIMINA LOS ESPACIOS
+// SE HACE ESO PARA QUE DEVUELVA EL ID AL QUE PERTENECE EL POKEMON Y CON ESO MUESTRE LA INFORMACION DEL MISMO
   for (let index of names) {
     if (busqueda == "pikachu") {
       names[0] = 1;
@@ -115,7 +115,7 @@ search.addEventListener("click", (e) => {
     }
   }
 });
-
+// EVENTO AL BOTON CLEAR
 clear.addEventListener("click", () => {
   fetchPokemons();
 });
