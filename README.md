@@ -3,8 +3,8 @@
 #### *- HTML*
 #### *- CSS => para normalizar estilos en todos los navegadores se usó 'normalize.css' y para los prefijos propietarios se usó la página 'autoprefixer.github.io' *
 #### *- Java Script Vainilla y Node JS => consumo de API por Fetch*
- Link de la Aplicacion : 
-[========]
+🤞 Link de la Aplicacion : https://bryan-itsqmet.github.io/PokeApi-Kruger/
+
 ## 1. FRONTEND 🤳
 ##### Se tomo como base el Wiraframe enviado al correo para el diseño de la misma. En el Css se usó display grid para mostrar los pokemons en 3 columnas y para el header se usó flexbox para que los elementos esten uno a lado de otro.
 ## 2. BACKEND 🐱‍🏍
