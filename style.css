@@ -1,0 +1,127 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    --colorBackground:#bec0c1;
+    --colorBlue:#386db9;
+    --colorYellow:#fbcb04;
+    --colorRed:#e83815
+}
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--colorBackground)
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav{
+    background-color: var(--colorYellow);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Verdana;
+}
+
+input{
+    border: 2.5px solid var(--colorBlue);
+    outline: none;
+    background-color: var(--colorBackground);
+}
+
+.btnS{
+    border-radius: 20px;
+    background-color: var(--colorRed);
+}
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.page{
+    text-align: center;
+    font-family: Helvetica; 
+}
+
+.poke_container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokemonCard{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgPokemon{
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px solid #cbcdcd;
+    border-radius: 50%;
+    background-color: #cbcdcd;
+}
+
+.namePokemon{
+    font-size: 24px;
+    font-weight: bold;
+    color: #4c4d4d;
+    padding-left: 35px;
+}
+
+.numPokemon,.typPokemon,.descPokemon,.evoluPokemon,.altPokemon,.weiPokemon{
+    font-size: 18px;
+    color: var(--colorBlue);
+    padding-left: 35px;
+    
+}
+
+.numPokemon_,.typPokemon_,.descPokemon_,.evoluPokemon_,.altPokemon_,.weiPokemon_{
+    font-size: 18px;
+    color: var(--colorRed);
+}
+
+.btnDetalles{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--colorBlue);
+    background-color: #ffe566;
+    border: 2.5px solid;
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px;
+}
