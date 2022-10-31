@@ -47,7 +47,7 @@ input{
     background-color: var(--colorBackground);
 }
 
-.btnS{
+.btnS,.btnC{
     border-radius: 20px;
     background-color: var(--colorRed);
 }
