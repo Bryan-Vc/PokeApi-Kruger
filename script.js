@@ -2,7 +2,7 @@ const poke_container = document.getElementById("poke_container");
 const apiUrl =
   "https://my-json-server.typicode.com/Bryan-ITSQMET/API-poke-kruger/listarPokemons/";
 const numeroPokemons = 10;
-const search = document.getElementById("form");
+const search = document.getElementById("search");
 const txtsearch = document.getElementById("txtsearch");
 const clear = document.getElementById("clear");
 
@@ -112,6 +112,7 @@ search.addEventListener("click", (e) => {
       return alert("Campo Vacio al momento de hacer la busqueda");
     } else if (!names.includes(busqueda)) {
       return alert("Este Pokemon no se encuentra registrado en la Pokedex");
+      txtsearch.value = "";
     }
   }
 });
