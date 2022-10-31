@@ -20,7 +20,6 @@ nota : previamente a la construcción de la api se necesita tener instalado node
 ###  <BR> 2.2 Deploy de la API con MY JSON SERVER 
 nota : previamente debemos haber subido nuestro archivo `db.json` a GitHub
 ##### · Visitamos el siguiente enlace https://my-json-server.typicode.com/'nombreUsuarioDeGit'/'nombreDelRepositorio' y lo reemplazamos con nuestros datos. En mi caso quedaría así https://my-json-server.typicode.com/Bryan-ITSQMET/API-poke-kruger
-[========]
 ## 3. FUNCIONALIDAD DE LA PÁGINA
 ##### La página web muestra la informacion de solo 10 pokemons que hay en la Base de Datos
 ##### Por cada Pokemon existe un botón llamado 'mas detalles' el cual al hacer click se despliega otra página con más información del pokemon seleccionado. Para regresar a la página principal se da click en el botón llamado 'home'
