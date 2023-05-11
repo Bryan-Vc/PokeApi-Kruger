@@ -25,14 +25,14 @@ Para buscar se da click en el botón 'search' o se da enter una vez introducido 
 <!-- tabla de contenido -->
 <h2>Tabla de Contenido</h2>
 
-- [Home](#pokeapi-challenge---kruger-start)  <!--[Titulo](#seccion_a_ir)
+- [Home](#pokeapi-challenge---kruger-start)
 - [Despliegue](#rocket-despliegue-del-sitio-web)  
 - [Construido con](#hammer_and_wrench-construido-con)
 - [Ejecútalo](#arrow_forward-ejecutarlo)
 - [Licencias](#pencil-licencias)
 - [Apoyo](#man_astronaut-dame-tu-apoyo)
 - [Preguntas y Respuestas - FAQ](#shipit-faq)          
-<!-- - [Website](#rocket-website---deployment) / 
+
 
 <!-- descripción del proyecto -->
 ## :rocket: Despliegue del Sitio Web
@@ -45,7 +45,6 @@ Para buscar se da click en el botón 'search' o se da enter una vez introducido 
 <div align="left">
 <a href="https://developer.mozilla.org/es/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="badged html" />
 <a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="badged css" />
-<!-- <a href="link del sitio del lenguaje"><img src="imagen del badge" alt="badged css" /> -->
 <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="badged js" /><br>
 <a href="https://my-json-server.typicode.com/"><img src="https://img.shields.io/static/v1?label=MY%20-%20JSON%20-%20SERVER%20&message=https://my-json-server.typicode.com/&color=blueviolet" alt="badged" /><br>
 <span>Del lado del Backend se uso una aplicación externa en el cual se puede alojar nuestra API solo con la creación de nuestro objeto JSON el cual vendría a ser nuestra base de datos. En mi caso la API de este proyecto seria el siguiente : https://my-json-server.typicode.com/bryan-vc/API-poke-kruger</span>
